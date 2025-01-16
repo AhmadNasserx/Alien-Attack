@@ -10,6 +10,6 @@ Alien Attack is a fast-paced side-scrolling space shooter, developed in Godot 4 
 
 Alien Attack showcases core mechanics for arcade-style games, blending gameplay with polished UI and functional systems.  
 
-You can play it on my itch page: ahmadnasser.itch.io/alien-attack
+You can play it on my itch page: https://ahmadnasser.itch.io/alien-attack
 ![Screenshot 2025-01-16 105007](https://github.com/user-attachments/assets/781d20d7-5c0f-4b8f-bf83-bff888b7b64a)
 ![Screenshot 2025-01-16 105015](https://github.com/user-attachments/assets/756dc361-6190-4bba-b679-3901b46dffdd)
