@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=3 uid="uid://cg7j1los3de"]
+
+[ext_resource type="FontFile" uid="uid://bgvxrxr4agpik" path="res://assets/font/Kenney Blocks.ttf" id="1_7mhby"]
+[ext_resource type="Script" path="res://scripts/hud.gd" id="1_bdbm6"]
+[ext_resource type="Texture2D" uid="uid://dsmywkqv0cqt5" path="res://assets/textures/orb.png" id="3_wrp3o"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_p0m8u"]
+font = ExtResource("1_7mhby")
+font_size = 48
+
+[sub_resource type="Theme" id="Theme_wh8hm"]
+default_font_size = 48
+
+[node name="HUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bdbm6")
+
+[node name="Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 8.0
+offset_right = 392.0
+offset_bottom = 80.0
+text = "SCORE: 9999"
+label_settings = SubResource("LabelSettings_p0m8u")
+
+[node name="LifeTextureRec" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 81.0
+offset_right = 154.0
+offset_bottom = 199.0
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("3_wrp3o")
+
+[node name="x" type="Label" parent="."]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 83.0
+offset_right = 170.0
+offset_bottom = 150.0
+theme = SubResource("Theme_wh8hm")
+text = "x"
+
+[node name="LivesLeft" type="Label" parent="."]
+layout_mode = 0
+offset_left = 141.0
+offset_top = 86.0
+offset_right = 207.0
+offset_bottom = 153.0
+theme = SubResource("Theme_wh8hm")
+text = "3"
